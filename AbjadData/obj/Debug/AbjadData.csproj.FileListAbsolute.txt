@@ -1,0 +1,9 @@
+C:\Users\AnaniFamily\source\repos\AbjadData\bin\Debug\AbjadData.dll
+C:\Users\AnaniFamily\source\repos\AbjadData\bin\Debug\AbjadData.pdb
+C:\Users\AnaniFamily\source\repos\AbjadData\obj\Debug\AbjadData.csproj.AssemblyReference.cache
+C:\Users\AnaniFamily\source\repos\AbjadData\obj\Debug\AbjadData.csproj.CoreCompileInputs.cache
+C:\Users\AnaniFamily\source\repos\AbjadData\obj\Debug\AbjadData.dll
+C:\Users\AnaniFamily\source\repos\AbjadData\obj\Debug\AbjadData.pdb
+C:\Users\AnaniFamily\source\repos\AbjadData\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\AnaniFamily\source\repos\AbjadData\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\AnaniFamily\source\repos\AbjadData\obj\Debug\AbjadData.csproj.Up2Date

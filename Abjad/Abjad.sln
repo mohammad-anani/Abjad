@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abjad", "Abjad.csproj", "{491082BA-D6F2-472C-91DD-B3520B833FF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbjadBusiness", "..\AbjadBusiness\AbjadBusiness.csproj", "{0E01EB46-F829-451B-B5C7-68E193E914E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbjadData", "..\AbjadData\AbjadData.csproj", "{1BC7AE0A-449D-42A4-BDF4-287C771AA026}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{491082BA-D6F2-472C-91DD-B3520B833FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491082BA-D6F2-472C-91DD-B3520B833FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491082BA-D6F2-472C-91DD-B3520B833FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491082BA-D6F2-472C-91DD-B3520B833FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E01EB46-F829-451B-B5C7-68E193E914E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E01EB46-F829-451B-B5C7-68E193E914E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E01EB46-F829-451B-B5C7-68E193E914E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E01EB46-F829-451B-B5C7-68E193E914E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC7AE0A-449D-42A4-BDF4-287C771AA026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC7AE0A-449D-42A4-BDF4-287C771AA026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC7AE0A-449D-42A4-BDF4-287C771AA026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC7AE0A-449D-42A4-BDF4-287C771AA026}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
