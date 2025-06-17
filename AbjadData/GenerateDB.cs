@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AbjadData
 {
-    internal class GenerateDB
+    public class GenerateDB
     {
 
             public static bool GenerateScript()
