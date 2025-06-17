@@ -66,14 +66,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AbjadData.dll" size="15360">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AbjadData.dll" size="71168">
       <assemblyIdentity name="AbjadData" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tswhWPnVPmWIaJlEdgBqOvI56jhiRWQs9TGzO31Rvgo=</dsig:DigestValue>
+        <dsig:DigestValue>YFncX+etXczYRvoHH9sptiErKKvhhHhod5mDf9vF/II=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -305,13 +305,22 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Abjad.exe.config" size="2061">
+  <file name="Abjad.exe.config" size="2172">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>apFejeWVJHNcUUAPKEI3TusjDXIwWrX5vsaNC+u8EJ8=</dsig:DigestValue>
+      <dsig:DigestValue>+nJCNiW29/rURY+vGE0G3UL156h3UgUunwBMNqs586I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\Guna.UI2.dll" size="2161544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>msi2XlwTKSqOVkGHwedEatxCMCKLZpODvXsHA1q5moI=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

@@ -50,6 +50,7 @@
     <Compile Include="clsItemData.cs" />
     <Compile Include="clsOrderData.cs" />
     <Compile Include="clsOrderDetailData.cs" />
+    <Compile Include="GenerateDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

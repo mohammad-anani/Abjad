@@ -264,5 +264,8 @@
     <None Include="Resources\images.jpeg" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Content Include="lib\Guna.UI2.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

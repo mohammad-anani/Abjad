@@ -98,3 +98,4 @@ C:\Users\AnaniFamily\source\repos\Abjad-Projects\Abjad\obj\Debug\Abjad.applicati
 C:\Users\AnaniFamily\source\repos\Abjad-Projects\Abjad\obj\Debug\Abjad.csproj.Up2Date
 C:\Users\AnaniFamily\source\repos\Abjad-Projects\Abjad\obj\Debug\Abjad.exe
 C:\Users\AnaniFamily\source\repos\Abjad-Projects\Abjad\obj\Debug\Abjad.pdb
+C:\Users\AnaniFamily\source\repos\Abjad-Projects\Abjad\bin\Debug\Guna.UI2.dll
