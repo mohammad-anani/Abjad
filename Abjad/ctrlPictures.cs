@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using Abjad.Properties;
 
 namespace Abjad
 {
@@ -45,12 +46,12 @@ namespace Abjad
 
         private void ctrlPictures_Load(object sender, EventArgs e)
         {
-            string[] picturespathes = File.ReadAllLines("C:\\Users\\AnaniFamily\\Downloads\\Pictures.txt");
+            Image[]pics = new Image[] { Properties.Resources.Abjad_image_alt, Properties.Resources.how_to_display_sales_in_your_store, Resources.images };
 
-            foreach (string picture in picturespathes)
+            foreach (Image img in pics)
             {
-                Image image = Image.FromFile(picture);
-                imageList1.Images.Add(image);
+       
+                imageList1.Images.Add(img);
             }
             pictureBox1.Image = imageList1.Images[0];
         }

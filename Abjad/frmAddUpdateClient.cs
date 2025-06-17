@@ -10,6 +10,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Win32;
+using System.IO;
+using System.Diagnostics;
 
 namespace Abjad
 {
@@ -115,10 +117,13 @@ namespace Abjad
                         return;
                     }
 
+
+                    string img = pbimage.ImageLocation.Split('/').Last();
                     Client.FullName = txtname.Text;
                     Client.Address = txtaddress.Text;
                     Client.Username = txtusername.Text;
-                    Client.ImagePath = pbimage.ImageLocation;
+                    File.Copy(pbimage.ImageLocation, "./Pictures/" + img, overwrite: true);
+                    Client.ImagePath = img;
 
                     //AutoLogin
 

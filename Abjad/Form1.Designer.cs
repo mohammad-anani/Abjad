@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            Guna.UI2.AnimatorNS.Animation animation2 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -115,7 +115,7 @@
             // guna2Panel1
             // 
             this.guna2Panel1.AutoRoundedCorners = true;
-            this.guna2Panel1.BorderRadius = 164;
+            this.guna2Panel1.BorderRadius = 123;
             this.guna2Panel1.Controls.Add(this.guna2CirclePictureBox3);
             this.guna2Panel1.Controls.Add(this.statefulButton8);
             this.guna2Panel1.Controls.Add(this.label1);
@@ -127,10 +127,10 @@
             this.guna2Panel1.CustomizableEdges.TopLeft = false;
             this.guna2Transition1.SetDecoration(this.guna2Panel1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2Panel1.FillColor = System.Drawing.Color.ForestGreen;
-            this.guna2Panel1.Location = new System.Drawing.Point(-1, -6);
+            this.guna2Panel1.Location = new System.Drawing.Point(-1, -5);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(0);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(330, 896);
+            this.guna2Panel1.Size = new System.Drawing.Size(248, 728);
             this.guna2Panel1.TabIndex = 0;
             // 
             // guna2CirclePictureBox3
@@ -140,10 +140,11 @@
             this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox3, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2CirclePictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox3.Image")));
             this.guna2CirclePictureBox3.ImageRotate = 0F;
-            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(3, 10);
+            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(2, 8);
+            this.guna2CirclePictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
             this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(61, 55);
+            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(46, 45);
             this.guna2CirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox3.TabIndex = 2;
             this.guna2CirclePictureBox3.TabStop = false;
@@ -154,7 +155,7 @@
             this.statefulButton8.Animated = true;
             this.statefulButton8.AutoRoundedCorners = true;
             this.statefulButton8.BackColor = System.Drawing.Color.Transparent;
-            this.statefulButton8.BorderRadius = 15;
+            this.statefulButton8.BorderRadius = 39;
             this.statefulButton8.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
             this.statefulButton8.CheckedState.FillColor = System.Drawing.Color.LimeGreen;
             this.statefulButton8.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -168,10 +169,11 @@
             this.statefulButton8.ForeColor = System.Drawing.Color.Black;
             this.statefulButton8.Image = ((System.Drawing.Image)(resources.GetObject("statefulButton8.Image")));
             this.statefulButton8.ImageSize = new System.Drawing.Size(40, 40);
-            this.statefulButton8.Location = new System.Drawing.Point(0, 620);
+            this.statefulButton8.Location = new System.Drawing.Point(0, 504);
+            this.statefulButton8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.statefulButton8.Name = "statefulButton8";
             this.statefulButton8.PressedColor = System.Drawing.Color.LimeGreen;
-            this.statefulButton8.Size = new System.Drawing.Size(330, 100);
+            this.statefulButton8.Size = new System.Drawing.Size(248, 81);
             this.statefulButton8.TabIndex = 4;
             this.statefulButton8.Text = "Puchase History";
             this.statefulButton8.Click += new System.EventHandler(this.statefulButton8_Click);
@@ -183,7 +185,8 @@
             this.guna2Transition1.SetDecoration(this.label1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label1.Font = new System.Drawing.Font("Microsoft Uighur", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(54, 190);
+            this.label1.Location = new System.Drawing.Point(40, 154);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(223, 109);
             this.label1.TabIndex = 1;
@@ -194,7 +197,7 @@
             this.statefulButton7.Animated = true;
             this.statefulButton7.AutoRoundedCorners = true;
             this.statefulButton7.BackColor = System.Drawing.Color.Transparent;
-            this.statefulButton7.BorderRadius = 15;
+            this.statefulButton7.BorderRadius = 39;
             this.statefulButton7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
             this.statefulButton7.CheckedState.FillColor = System.Drawing.Color.LimeGreen;
             this.statefulButton7.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -208,10 +211,11 @@
             this.statefulButton7.ForeColor = System.Drawing.Color.Black;
             this.statefulButton7.Image = ((System.Drawing.Image)(resources.GetObject("statefulButton7.Image")));
             this.statefulButton7.ImageSize = new System.Drawing.Size(40, 40);
-            this.statefulButton7.Location = new System.Drawing.Point(0, 514);
+            this.statefulButton7.Location = new System.Drawing.Point(0, 418);
+            this.statefulButton7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.statefulButton7.Name = "statefulButton7";
             this.statefulButton7.PressedColor = System.Drawing.Color.LimeGreen;
-            this.statefulButton7.Size = new System.Drawing.Size(330, 100);
+            this.statefulButton7.Size = new System.Drawing.Size(248, 81);
             this.statefulButton7.TabIndex = 3;
             this.statefulButton7.Text = "My Cart";
             this.statefulButton7.Click += new System.EventHandler(this.statefulButton7_Click);
@@ -222,10 +226,11 @@
             this.guna2Transition1.SetDecoration(this.guna2CirclePictureBox1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(61, 35);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(46, 28);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(199, 182);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(149, 148);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox1.TabIndex = 0;
             this.guna2CirclePictureBox1.TabStop = false;
@@ -235,7 +240,7 @@
             this.statefulButton6.Animated = true;
             this.statefulButton6.AutoRoundedCorners = true;
             this.statefulButton6.BackColor = System.Drawing.Color.Transparent;
-            this.statefulButton6.BorderRadius = 15;
+            this.statefulButton6.BorderRadius = 39;
             this.statefulButton6.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
             this.statefulButton6.CheckedState.FillColor = System.Drawing.Color.LimeGreen;
             this.statefulButton6.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -249,10 +254,11 @@
             this.statefulButton6.ForeColor = System.Drawing.Color.Black;
             this.statefulButton6.Image = ((System.Drawing.Image)(resources.GetObject("statefulButton6.Image")));
             this.statefulButton6.ImageSize = new System.Drawing.Size(40, 40);
-            this.statefulButton6.Location = new System.Drawing.Point(0, 408);
+            this.statefulButton6.Location = new System.Drawing.Point(0, 332);
+            this.statefulButton6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.statefulButton6.Name = "statefulButton6";
             this.statefulButton6.PressedColor = System.Drawing.Color.LimeGreen;
-            this.statefulButton6.Size = new System.Drawing.Size(330, 100);
+            this.statefulButton6.Size = new System.Drawing.Size(248, 81);
             this.statefulButton6.TabIndex = 2;
             this.statefulButton6.Text = "Browse";
             this.statefulButton6.Click += new System.EventHandler(this.statefulButton6_Click);
@@ -262,7 +268,7 @@
             this.statefulButton5.Animated = true;
             this.statefulButton5.AutoRoundedCorners = true;
             this.statefulButton5.BackColor = System.Drawing.Color.Transparent;
-            this.statefulButton5.BorderRadius = 15;
+            this.statefulButton5.BorderRadius = 39;
             this.statefulButton5.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
             this.statefulButton5.CheckedState.FillColor = System.Drawing.Color.LimeGreen;
             this.statefulButton5.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -276,10 +282,11 @@
             this.statefulButton5.ForeColor = System.Drawing.Color.Black;
             this.statefulButton5.Image = ((System.Drawing.Image)(resources.GetObject("statefulButton5.Image")));
             this.statefulButton5.ImageSize = new System.Drawing.Size(40, 40);
-            this.statefulButton5.Location = new System.Drawing.Point(0, 302);
+            this.statefulButton5.Location = new System.Drawing.Point(0, 245);
+            this.statefulButton5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.statefulButton5.Name = "statefulButton5";
             this.statefulButton5.PressedColor = System.Drawing.Color.LimeGreen;
-            this.statefulButton5.Size = new System.Drawing.Size(330, 100);
+            this.statefulButton5.Size = new System.Drawing.Size(248, 81);
             this.statefulButton5.TabIndex = 1;
             this.statefulButton5.Text = "Home";
             this.statefulButton5.Click += new System.EventHandler(this.statefulButton5_Click);
@@ -304,11 +311,12 @@
             this.tabControl1.Controls.Add(this.tabPage4);
             this.guna2Transition1.SetDecoration(this.tabControl1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.tabControl1.ItemSize = new System.Drawing.Size(71, 24);
-            this.tabControl1.Location = new System.Drawing.Point(332, 99);
+            this.tabControl1.Location = new System.Drawing.Point(249, 80);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabControl1.Multiline = true;
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(943, 791);
+            this.tabControl1.Size = new System.Drawing.Size(707, 643);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -317,20 +325,23 @@
             this.tabPage1.Controls.Add(this.ctrlListItems1);
             this.guna2Transition1.SetDecoration(this.tabPage1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.tabPage1.Location = new System.Drawing.Point(4, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(658, 783);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Size = new System.Drawing.Size(458, 635);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             // 
             // ctrlListItems1
             // 
             this.guna2Transition1.SetDecoration(this.ctrlListItems1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.ctrlListItems1.Location = new System.Drawing.Point(-3, 6);
+            this.ctrlListItems1.Location = new System.Drawing.Point(-2, 5);
+            this.ctrlListItems1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ctrlListItems1.Name = "ctrlListItems1";
-            this.ctrlListItems1.Size = new System.Drawing.Size(654, 780);
+            this.ctrlListItems1.Size = new System.Drawing.Size(490, 634);
             this.ctrlListItems1.TabIndex = 0;
             this.ctrlListItems1.OnClickToPurchase += new System.Action<AbjadBusiness.clsItem>(this.ctrlListItems1_OnClickToPurchase);
+            this.ctrlListItems1.Load += new System.EventHandler(this.ctrlListItems1_Load);
             // 
             // tabPage2
             // 
@@ -338,9 +349,10 @@
             this.tabPage2.Controls.Add(this.ctrlGuestSignIn1);
             this.guna2Transition1.SetDecoration(this.tabPage2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.tabPage2.Location = new System.Drawing.Point(4, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(658, 783);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Size = new System.Drawing.Size(458, 635);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -352,9 +364,10 @@
             this.panel1.Controls.Add(this.guna2Button1);
             this.guna2Transition1.SetDecoration(this.panel1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Location = new System.Drawing.Point(2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(652, 777);
+            this.panel1.Size = new System.Drawing.Size(454, 631);
             this.panel1.TabIndex = 4;
             this.panel1.Visible = false;
             // 
@@ -363,7 +376,8 @@
             this.lbltotal.AutoSize = true;
             this.guna2Transition1.SetDecoration(this.lbltotal, Guna.UI2.AnimatorNS.DecorationType.None);
             this.lbltotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.lbltotal.Location = new System.Drawing.Point(226, 638);
+            this.lbltotal.Location = new System.Drawing.Point(170, 518);
+            this.lbltotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbltotal.Name = "lbltotal";
             this.lbltotal.Size = new System.Drawing.Size(225, 39);
             this.lbltotal.TabIndex = 2;
@@ -373,44 +387,45 @@
             // 
             this.cdgvcart.AllowUserToAddRows = false;
             this.cdgvcart.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 15F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.ForestGreen;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
-            this.cdgvcart.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Segoe UI", 15F);
+            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.ForestGreen;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.Black;
+            this.cdgvcart.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
             this.cdgvcart.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.cdgvcart.BackgroundColor = System.Drawing.SystemColors.Control;
             this.cdgvcart.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.cdgvcart.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.cdgvcart.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.ForestGreen;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 15F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.ForestGreen;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.cdgvcart.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.ForestGreen;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI", 15F);
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.ForestGreen;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.cdgvcart.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
             this.cdgvcart.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.guna2Transition1.SetDecoration(this.cdgvcart, Guna.UI2.AnimatorNS.DecorationType.None);
             this.cdgvcart.EnableHeadersVisualStyles = false;
             this.cdgvcart.GridColor = System.Drawing.SystemColors.Control;
-            this.cdgvcart.Location = new System.Drawing.Point(7, 3);
+            this.cdgvcart.Location = new System.Drawing.Point(5, 2);
+            this.cdgvcart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cdgvcart.Name = "cdgvcart";
             this.cdgvcart.ReadOnly = true;
             this.cdgvcart.RowHeadersVisible = false;
             this.cdgvcart.RowHeadersWidth = 51;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 15F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.ForestGreen;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            this.cdgvcart.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI", 15F);
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.ForestGreen;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.Black;
+            this.cdgvcart.RowsDefaultCellStyle = dataGridViewCellStyle18;
             this.cdgvcart.RowTemplate.Height = 50;
             this.cdgvcart.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.cdgvcart.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.cdgvcart.Size = new System.Drawing.Size(581, 685);
+            this.cdgvcart.Size = new System.Drawing.Size(436, 557);
             this.cdgvcart.TabIndex = 4;
             this.cdgvcart.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cdgvcart_CellContentClick);
             this.cdgvcart.CellMouseEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.cdgvcart_CellMouseEnter);
@@ -420,7 +435,7 @@
             // 
             this.guna2Button1.Animated = true;
             this.guna2Button1.AutoRoundedCorners = true;
-            this.guna2Button1.BorderRadius = 30;
+            this.guna2Button1.BorderRadius = 24;
             this.guna2Transition1.SetDecoration(this.guna2Button1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -429,9 +444,10 @@
             this.guna2Button1.FillColor = System.Drawing.Color.ForestGreen;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.Location = new System.Drawing.Point(397, 694);
+            this.guna2Button1.Location = new System.Drawing.Point(298, 564);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(191, 62);
+            this.guna2Button1.Size = new System.Drawing.Size(143, 50);
             this.guna2Button1.TabIndex = 3;
             this.guna2Button1.Text = "Check Out";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -439,9 +455,10 @@
             // ctrlGuestSignIn1
             // 
             this.guna2Transition1.SetDecoration(this.ctrlGuestSignIn1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.ctrlGuestSignIn1.Location = new System.Drawing.Point(-4, 99);
+            this.ctrlGuestSignIn1.Location = new System.Drawing.Point(-3, 80);
+            this.ctrlGuestSignIn1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ctrlGuestSignIn1.Name = "ctrlGuestSignIn1";
-            this.ctrlGuestSignIn1.Size = new System.Drawing.Size(667, 458);
+            this.ctrlGuestSignIn1.Size = new System.Drawing.Size(500, 372);
             this.ctrlGuestSignIn1.TabIndex = 3;
             this.ctrlGuestSignIn1.OnSignIn += new System.Action<AbjadBusiness.clsClient>(this.ctrlGuestSignIn1_OnSignIn);
             // 
@@ -451,9 +468,10 @@
             this.tabPage3.Controls.Add(this.ctrlGuestSignIn2);
             this.guna2Transition1.SetDecoration(this.tabPage3, Guna.UI2.AnimatorNS.DecorationType.None);
             this.tabPage3.Location = new System.Drawing.Point(4, 4);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(658, 783);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage3.Size = new System.Drawing.Size(458, 635);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -469,9 +487,10 @@
             this.panel2.Controls.Add(this.cdgvhistory);
             this.guna2Transition1.SetDecoration(this.panel2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(3, 3);
+            this.panel2.Location = new System.Drawing.Point(2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(652, 777);
+            this.panel2.Size = new System.Drawing.Size(454, 631);
             this.panel2.TabIndex = 3;
             this.panel2.Visible = false;
             // 
@@ -488,8 +507,9 @@
             this.pnlListItems.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlListItems.FillColor = System.Drawing.Color.Gainsboro;
             this.pnlListItems.Location = new System.Drawing.Point(0, 0);
+            this.pnlListItems.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlListItems.Name = "pnlListItems";
-            this.pnlListItems.Size = new System.Drawing.Size(648, 777);
+            this.pnlListItems.Size = new System.Drawing.Size(486, 631);
             this.pnlListItems.TabIndex = 13;
             this.pnlListItems.Visible = false;
             // 
@@ -497,43 +517,44 @@
             // 
             this.cdgvorderdetails.AllowUserToAddRows = false;
             this.cdgvorderdetails.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 15F);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.ForestGreen;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
-            this.cdgvorderdetails.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 15F);
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.ForestGreen;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.Black;
+            this.cdgvorderdetails.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
             this.cdgvorderdetails.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.cdgvorderdetails.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.cdgvorderdetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.cdgvorderdetails.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.cdgvorderdetails.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.ForestGreen;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 15F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.ForestGreen;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.cdgvorderdetails.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.ForestGreen;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 15F);
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.ForestGreen;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.cdgvorderdetails.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.cdgvorderdetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.guna2Transition1.SetDecoration(this.cdgvorderdetails, Guna.UI2.AnimatorNS.DecorationType.None);
             this.cdgvorderdetails.EnableHeadersVisualStyles = false;
             this.cdgvorderdetails.GridColor = System.Drawing.Color.Gainsboro;
-            this.cdgvorderdetails.Location = new System.Drawing.Point(13, 27);
+            this.cdgvorderdetails.Location = new System.Drawing.Point(10, 22);
+            this.cdgvorderdetails.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cdgvorderdetails.Name = "cdgvorderdetails";
             this.cdgvorderdetails.ReadOnly = true;
             this.cdgvorderdetails.RowHeadersVisible = false;
             this.cdgvorderdetails.RowHeadersWidth = 51;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 15F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.ForestGreen;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            this.cdgvorderdetails.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 15F);
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.ForestGreen;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
+            this.cdgvorderdetails.RowsDefaultCellStyle = dataGridViewCellStyle12;
             this.cdgvorderdetails.RowTemplate.Height = 50;
             this.cdgvorderdetails.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.cdgvorderdetails.Size = new System.Drawing.Size(482, 710);
+            this.cdgvorderdetails.Size = new System.Drawing.Size(362, 577);
             this.cdgvorderdetails.TabIndex = 1;
             // 
             // pbinfoimage
@@ -541,10 +562,11 @@
             this.pbinfoimage.BackColor = System.Drawing.Color.Gainsboro;
             this.pbinfoimage.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2Transition1.SetDecoration(this.pbinfoimage, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.pbinfoimage.Image = ((System.Drawing.Image)(resources.GetObject("pbinfoimage.Image")));
-            this.pbinfoimage.Location = new System.Drawing.Point(501, 124);
+            this.pbinfoimage.Image = global::Abjad.Properties.Resources.Minimalist_info_Icon;
+            this.pbinfoimage.Location = new System.Drawing.Point(376, 101);
+            this.pbinfoimage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pbinfoimage.Name = "pbinfoimage";
-            this.pbinfoimage.Size = new System.Drawing.Size(65, 65);
+            this.pbinfoimage.Size = new System.Drawing.Size(49, 53);
             this.pbinfoimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbinfoimage.TabIndex = 0;
             this.pbinfoimage.TabStop = false;
@@ -556,7 +578,8 @@
             this.lblnorders.BackColor = System.Drawing.SystemColors.Control;
             this.guna2Transition1.SetDecoration(this.lblnorders, Guna.UI2.AnimatorNS.DecorationType.None);
             this.lblnorders.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.lblnorders.Location = new System.Drawing.Point(222, 287);
+            this.lblnorders.Location = new System.Drawing.Point(166, 233);
+            this.lblnorders.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblnorders.Name = "lblnorders";
             this.lblnorders.Size = new System.Drawing.Size(173, 39);
             this.lblnorders.TabIndex = 4;
@@ -567,9 +590,10 @@
             this.pbbackward.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2Transition1.SetDecoration(this.pbbackward, Guna.UI2.AnimatorNS.DecorationType.None);
             this.pbbackward.Image = ((System.Drawing.Image)(resources.GetObject("pbbackward.Image")));
-            this.pbbackward.Location = new System.Drawing.Point(478, 713);
+            this.pbbackward.Location = new System.Drawing.Point(358, 579);
+            this.pbbackward.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pbbackward.Name = "pbbackward";
-            this.pbbackward.Size = new System.Drawing.Size(45, 50);
+            this.pbbackward.Size = new System.Drawing.Size(34, 41);
             this.pbbackward.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbbackward.TabIndex = 11;
             this.pbbackward.TabStop = false;
@@ -580,9 +604,10 @@
             this.pbforward.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2Transition1.SetDecoration(this.pbforward, Guna.UI2.AnimatorNS.DecorationType.None);
             this.pbforward.Image = ((System.Drawing.Image)(resources.GetObject("pbforward.Image")));
-            this.pbforward.Location = new System.Drawing.Point(529, 713);
+            this.pbforward.Location = new System.Drawing.Point(397, 579);
+            this.pbforward.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pbforward.Name = "pbforward";
-            this.pbforward.Size = new System.Drawing.Size(45, 50);
+            this.pbforward.Size = new System.Drawing.Size(34, 41);
             this.pbforward.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbforward.TabIndex = 10;
             this.pbforward.TabStop = false;
@@ -593,7 +618,8 @@
             this.lbltotalpages.AutoSize = true;
             this.guna2Transition1.SetDecoration(this.lbltotalpages, Guna.UI2.AnimatorNS.DecorationType.None);
             this.lbltotalpages.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.lbltotalpages.Location = new System.Drawing.Point(580, 719);
+            this.lbltotalpages.Location = new System.Drawing.Point(435, 584);
+            this.lbltotalpages.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbltotalpages.Name = "lbltotalpages";
             this.lbltotalpages.Size = new System.Drawing.Size(55, 39);
             this.lbltotalpages.TabIndex = 9;
@@ -604,7 +630,8 @@
             this.lblpage.AutoSize = true;
             this.guna2Transition1.SetDecoration(this.lblpage, Guna.UI2.AnimatorNS.DecorationType.None);
             this.lblpage.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.lblpage.Location = new System.Drawing.Point(417, 719);
+            this.lblpage.Location = new System.Drawing.Point(313, 584);
+            this.lblpage.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblpage.Name = "lblpage";
             this.lblpage.Size = new System.Drawing.Size(55, 39);
             this.lblpage.TabIndex = 8;
@@ -614,44 +641,45 @@
             // 
             this.cdgvhistory.AllowUserToAddRows = false;
             this.cdgvhistory.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 15F);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.ForestGreen;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
-            this.cdgvhistory.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Segoe UI", 15F);
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.ForestGreen;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.Black;
+            this.cdgvhistory.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
             this.cdgvhistory.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.cdgvhistory.BackgroundColor = System.Drawing.SystemColors.Control;
             this.cdgvhistory.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.cdgvhistory.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.cdgvhistory.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.ForestGreen;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 15F);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.ForestGreen;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.cdgvhistory.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.ForestGreen;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 15F);
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.ForestGreen;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.cdgvhistory.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.cdgvhistory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.guna2Transition1.SetDecoration(this.cdgvhistory, Guna.UI2.AnimatorNS.DecorationType.None);
             this.cdgvhistory.EnableHeadersVisualStyles = false;
             this.cdgvhistory.GridColor = System.Drawing.SystemColors.Control;
-            this.cdgvhistory.Location = new System.Drawing.Point(0, 3);
+            this.cdgvhistory.Location = new System.Drawing.Point(0, 2);
+            this.cdgvhistory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cdgvhistory.Name = "cdgvhistory";
             this.cdgvhistory.ReadOnly = true;
             this.cdgvhistory.RowHeadersVisible = false;
             this.cdgvhistory.RowHeadersWidth = 51;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 15F);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.ForestGreen;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
-            this.cdgvhistory.RowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI", 15F);
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.ForestGreen;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.Black;
+            this.cdgvhistory.RowsDefaultCellStyle = dataGridViewCellStyle15;
             this.cdgvhistory.RowTemplate.Height = 50;
             this.cdgvhistory.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.cdgvhistory.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.cdgvhistory.Size = new System.Drawing.Size(639, 684);
+            this.cdgvhistory.Size = new System.Drawing.Size(479, 556);
             this.cdgvhistory.TabIndex = 0;
             this.cdgvhistory.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cdgvhistory_CellContentClick);
             this.cdgvhistory.CellMouseEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.cdgvhistory_CellMouseEnter);
@@ -660,9 +688,10 @@
             // ctrlGuestSignIn2
             // 
             this.guna2Transition1.SetDecoration(this.ctrlGuestSignIn2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.ctrlGuestSignIn2.Location = new System.Drawing.Point(-4, 99);
+            this.ctrlGuestSignIn2.Location = new System.Drawing.Point(-3, 80);
+            this.ctrlGuestSignIn2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ctrlGuestSignIn2.Name = "ctrlGuestSignIn2";
-            this.ctrlGuestSignIn2.Size = new System.Drawing.Size(660, 420);
+            this.ctrlGuestSignIn2.Size = new System.Drawing.Size(495, 341);
             this.ctrlGuestSignIn2.TabIndex = 1;
             this.ctrlGuestSignIn2.OnSignIn += new System.Action<AbjadBusiness.clsClient>(this.ctrlGuestSignIn1_OnSignIn);
             // 
@@ -671,9 +700,10 @@
             this.tabPage4.Controls.Add(this.panel3);
             this.guna2Transition1.SetDecoration(this.tabPage4, Guna.UI2.AnimatorNS.DecorationType.None);
             this.tabPage4.Location = new System.Drawing.Point(4, 4);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(658, 783);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage4.Size = new System.Drawing.Size(458, 635);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -688,17 +718,19 @@
             this.panel3.Controls.Add(this.label2);
             this.guna2Transition1.SetDecoration(this.panel3, Guna.UI2.AnimatorNS.DecorationType.None);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(3, 3);
+            this.panel3.Location = new System.Drawing.Point(2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(645, 777);
+            this.panel3.Size = new System.Drawing.Size(484, 631);
             this.panel3.TabIndex = 0;
             // 
             // ctrlPictures1
             // 
             this.guna2Transition1.SetDecoration(this.ctrlPictures1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.ctrlPictures1.Location = new System.Drawing.Point(-3, 3);
+            this.ctrlPictures1.Location = new System.Drawing.Point(-2, 2);
+            this.ctrlPictures1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ctrlPictures1.Name = "ctrlPictures1";
-            this.ctrlPictures1.Size = new System.Drawing.Size(631, 330);
+            this.ctrlPictures1.Size = new System.Drawing.Size(473, 268);
             this.ctrlPictures1.TabIndex = 5;
             // 
             // flowLayoutPanel2
@@ -707,36 +739,40 @@
             this.flowLayoutPanel2.Controls.Add(this.ctrlItem5);
             this.flowLayoutPanel2.Controls.Add(this.ctrlItem6);
             this.guna2Transition1.SetDecoration(this.flowLayoutPanel2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(-7, 411);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(-5, 334);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(618, 268);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(464, 218);
             this.flowLayoutPanel2.TabIndex = 4;
             // 
             // ctrlItem4
             // 
             this.ctrlItem4.BackColor = System.Drawing.Color.White;
             this.guna2Transition1.SetDecoration(this.ctrlItem4, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.ctrlItem4.Location = new System.Drawing.Point(3, 3);
+            this.ctrlItem4.Location = new System.Drawing.Point(2, 2);
+            this.ctrlItem4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ctrlItem4.Name = "ctrlItem4";
-            this.ctrlItem4.Size = new System.Drawing.Size(200, 254);
+            this.ctrlItem4.Size = new System.Drawing.Size(150, 206);
             this.ctrlItem4.TabIndex = 0;
             // 
             // ctrlItem5
             // 
             this.ctrlItem5.BackColor = System.Drawing.Color.White;
             this.guna2Transition1.SetDecoration(this.ctrlItem5, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.ctrlItem5.Location = new System.Drawing.Point(209, 3);
+            this.ctrlItem5.Location = new System.Drawing.Point(156, 2);
+            this.ctrlItem5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ctrlItem5.Name = "ctrlItem5";
-            this.ctrlItem5.Size = new System.Drawing.Size(200, 254);
+            this.ctrlItem5.Size = new System.Drawing.Size(150, 206);
             this.ctrlItem5.TabIndex = 1;
             // 
             // ctrlItem6
             // 
             this.ctrlItem6.BackColor = System.Drawing.Color.White;
             this.guna2Transition1.SetDecoration(this.ctrlItem6, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.ctrlItem6.Location = new System.Drawing.Point(415, 3);
+            this.ctrlItem6.Location = new System.Drawing.Point(310, 2);
+            this.ctrlItem6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ctrlItem6.Name = "ctrlItem6";
-            this.ctrlItem6.Size = new System.Drawing.Size(200, 254);
+            this.ctrlItem6.Size = new System.Drawing.Size(150, 206);
             this.ctrlItem6.TabIndex = 2;
             // 
             // label3
@@ -744,7 +780,8 @@
             this.label3.AutoSize = true;
             this.guna2Transition1.SetDecoration(this.label3, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label3.Font = new System.Drawing.Font("Microsoft Uighur", 30F);
-            this.label3.Location = new System.Drawing.Point(-7, 363);
+            this.label3.Location = new System.Drawing.Point(-5, 295);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(243, 66);
             this.label3.TabIndex = 3;
@@ -756,36 +793,40 @@
             this.flowLayoutPanel1.Controls.Add(this.ctrlItem2);
             this.flowLayoutPanel1.Controls.Add(this.ctrlItem3);
             this.guna2Transition1.SetDecoration(this.flowLayoutPanel1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(-4, 748);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(-3, 608);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(635, 268);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(476, 218);
             this.flowLayoutPanel1.TabIndex = 2;
             // 
             // ctrlItem1
             // 
             this.ctrlItem1.BackColor = System.Drawing.Color.White;
             this.guna2Transition1.SetDecoration(this.ctrlItem1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.ctrlItem1.Location = new System.Drawing.Point(3, 3);
+            this.ctrlItem1.Location = new System.Drawing.Point(2, 2);
+            this.ctrlItem1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ctrlItem1.Name = "ctrlItem1";
-            this.ctrlItem1.Size = new System.Drawing.Size(200, 254);
+            this.ctrlItem1.Size = new System.Drawing.Size(150, 206);
             this.ctrlItem1.TabIndex = 0;
             // 
             // ctrlItem2
             // 
             this.ctrlItem2.BackColor = System.Drawing.Color.White;
             this.guna2Transition1.SetDecoration(this.ctrlItem2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.ctrlItem2.Location = new System.Drawing.Point(209, 3);
+            this.ctrlItem2.Location = new System.Drawing.Point(156, 2);
+            this.ctrlItem2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ctrlItem2.Name = "ctrlItem2";
-            this.ctrlItem2.Size = new System.Drawing.Size(200, 254);
+            this.ctrlItem2.Size = new System.Drawing.Size(150, 206);
             this.ctrlItem2.TabIndex = 1;
             // 
             // ctrlItem3
             // 
             this.ctrlItem3.BackColor = System.Drawing.Color.White;
             this.guna2Transition1.SetDecoration(this.ctrlItem3, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.ctrlItem3.Location = new System.Drawing.Point(415, 3);
+            this.ctrlItem3.Location = new System.Drawing.Point(310, 2);
+            this.ctrlItem3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ctrlItem3.Name = "ctrlItem3";
-            this.ctrlItem3.Size = new System.Drawing.Size(200, 254);
+            this.ctrlItem3.Size = new System.Drawing.Size(150, 206);
             this.ctrlItem3.TabIndex = 2;
             // 
             // label2
@@ -793,7 +834,8 @@
             this.label2.AutoSize = true;
             this.guna2Transition1.SetDecoration(this.label2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label2.Font = new System.Drawing.Font("Microsoft Uighur", 30F);
-            this.label2.Location = new System.Drawing.Point(-4, 697);
+            this.label2.Location = new System.Drawing.Point(-3, 566);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(186, 66);
             this.label2.TabIndex = 1;
@@ -810,9 +852,10 @@
             this.pnlprofile.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2Transition1.SetDecoration(this.pnlprofile, Guna.UI2.AnimatorNS.DecorationType.None);
             this.pnlprofile.FillColor = System.Drawing.Color.Gainsboro;
-            this.pnlprofile.Location = new System.Drawing.Point(509, 4);
+            this.pnlprofile.Location = new System.Drawing.Point(382, 3);
+            this.pnlprofile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlprofile.Name = "pnlprofile";
-            this.pnlprofile.Size = new System.Drawing.Size(478, 99);
+            this.pnlprofile.Size = new System.Drawing.Size(358, 80);
             this.pnlprofile.TabIndex = 2;
             this.pnlprofile.Visible = false;
             // 
@@ -823,7 +866,8 @@
             this.guna2Transition1.SetDecoration(this.lleditinfo, Guna.UI2.AnimatorNS.DecorationType.None);
             this.lleditinfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lleditinfo.LinkColor = System.Drawing.Color.ForestGreen;
-            this.lleditinfo.Location = new System.Drawing.Point(18, 59);
+            this.lleditinfo.Location = new System.Drawing.Point(14, 48);
+            this.lleditinfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lleditinfo.Name = "lleditinfo";
             this.lleditinfo.Size = new System.Drawing.Size(91, 29);
             this.lleditinfo.TabIndex = 3;
@@ -837,7 +881,8 @@
             this.lblusername.BackColor = System.Drawing.Color.Gainsboro;
             this.guna2Transition1.SetDecoration(this.lblusername, Guna.UI2.AnimatorNS.DecorationType.None);
             this.lblusername.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.lblusername.Location = new System.Drawing.Point(16, 16);
+            this.lblusername.Location = new System.Drawing.Point(12, 13);
+            this.lblusername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblusername.Name = "lblusername";
             this.lblusername.Size = new System.Drawing.Size(107, 39);
             this.lblusername.TabIndex = 2;
@@ -849,10 +894,11 @@
             this.guna2Transition1.SetDecoration(this.pbmyimage, Guna.UI2.AnimatorNS.DecorationType.None);
             this.pbmyimage.Image = ((System.Drawing.Image)(resources.GetObject("pbmyimage.Image")));
             this.pbmyimage.ImageRotate = 0F;
-            this.pbmyimage.Location = new System.Drawing.Point(890, 13);
+            this.pbmyimage.Location = new System.Drawing.Point(668, 11);
+            this.pbmyimage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pbmyimage.Name = "pbmyimage";
             this.pbmyimage.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.pbmyimage.Size = new System.Drawing.Size(80, 80);
+            this.pbmyimage.Size = new System.Drawing.Size(60, 65);
             this.pbmyimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbmyimage.TabIndex = 1;
             this.pbmyimage.TabStop = false;
@@ -862,36 +908,37 @@
             // 
             this.guna2Transition1.AnimationType = Guna.UI2.AnimatorNS.AnimationType.Transparent;
             this.guna2Transition1.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 1F;
-            this.guna2Transition1.DefaultAnimation = animation1;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 1F;
+            this.guna2Transition1.DefaultAnimation = animation2;
             this.guna2Transition1.MaxAnimationTime = 1000;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(990, 882);
+            this.ClientSize = new System.Drawing.Size(742, 717);
             this.Controls.Add(this.pbmyimage);
             this.Controls.Add(this.pnlprofile);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.tabControl1);
             this.guna2Transition1.SetDecoration(this, Guna.UI2.AnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

@@ -31,7 +31,7 @@ namespace Abjad
                 lblpoutofstock.Visible = true;
                 pictureBox2.Visible = false;
             }
-            pbimage.ImageLocation = Item.ImagePath;
+            pbimage.ImageLocation = "./Pictures/"+Item.ImagePath;
             lblname.Text = Item.Name;
             lblprice.Text = Item.Price.ToString("0.00")+"$";
 

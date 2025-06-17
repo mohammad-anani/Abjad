@@ -157,7 +157,7 @@ namespace Abjad
 
             DataGridViewImageColumn newcolumn3 = new DataGridViewImageColumn();
             newcolumn3.ImageLayout = DataGridViewImageCellLayout.Zoom;
-            newcolumn3.Image = Image.FromFile("C:\\Users\\AnaniFamily\\Downloads\\info (1).png");
+            newcolumn3.Image = Properties.Resources.Minimalist_info_Icon;
             newcolumn3.Width = 20;
             cdgvhistory.Columns.Add(newcolumn3);
 
@@ -173,7 +173,7 @@ namespace Abjad
         {
             CurrentClient = client;
             lblusername.Text = client.Username;
-            pbmyimage.ImageLocation = client.ImagePath;
+            pbmyimage.ImageLocation = "./Pictures/"+client.ImagePath;
             lleditinfo.Text = "Edit Info";
 
             panel1.Visible = true;
@@ -195,7 +195,7 @@ namespace Abjad
 
             DataGridViewImageColumn newcolumn2 = new DataGridViewImageColumn();
             newcolumn2.ImageLayout = DataGridViewImageCellLayout.Zoom;
-            newcolumn2.Image = Image.FromFile("C:\\Users\\AnaniFamily\\Downloads\\pencil (1).png");
+            newcolumn2.Image = Resources.Pencil_37;
             newcolumn2.Width = 20;
             cdgvcart.Columns.Add(newcolumn2);
 
@@ -203,7 +203,7 @@ namespace Abjad
 
             DataGridViewImageColumn newcolumn1 = new DataGridViewImageColumn();
             newcolumn1.ImageLayout = DataGridViewImageCellLayout.Zoom;
-            newcolumn1.Image = Image.FromFile("C:\\Users\\AnaniFamily\\Downloads\\trash_can (2).png");
+            newcolumn1.Image = Resources.trash_bin_3;
             newcolumn1.Width = 20;
             cdgvcart.Columns.Add(newcolumn1);
 
@@ -453,6 +453,11 @@ namespace Abjad
         }
 
         private void ctrlPictures1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ctrlListItems1_Load(object sender, EventArgs e)
         {
 
         }
